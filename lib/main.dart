@@ -92,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                 _addTab();
               },
               child: Text(
-                "start increment",
+                "add tab",
                 style: TextStyle(color: Colors.white),
               ),
             ),
@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                 });
               },
               child: Text(
-                "stop increment",
+                "remove tab",
                 style: TextStyle(color: Colors.white),
               ),
             ),
